@@ -1,0 +1,29 @@
+.. alex documentation master file, created by
+   sphinx-quickstart on Sun May 14 16:07:43 2017.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to alex's documentation!
+================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Базы данных:
+   :glob:
+   :includehidden:
+
+   example3
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Сертификация и документация:
+   :glob:
+
+   exp1/*
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
